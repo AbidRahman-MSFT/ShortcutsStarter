@@ -1,0 +1,29 @@
+
+{
+    "shortcuts": [
+        {
+            "action": "SHOWTASKPANE",
+            "key": {
+                "default": "${resource.showtaskpane_defaultkey}"
+            }
+        },
+        {
+            "action": "HIDETASKPANE",
+            "key": {
+                "default": "${resource.hidetaskpane_defaultkey}"
+            }
+        }
+    ],
+    "resources": {
+        "default": {
+            "showtaskpane_defaultkey": {
+                "value": "CTRL+SHIFT+UP",
+                "comment": "Shortcut key for showtaskpane"
+            },
+            "hidetaskpane_defaultkey": {
+                "value": "CTRL+SHIFT+DOWN",
+                "comment": "Shortcut key for hidetaskpane"
+            }
+        }
+    }
+} 

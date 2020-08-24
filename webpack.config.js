@@ -51,6 +51,12 @@ module.exports = async (env, options) => {
           to: "taskpane.css",
           from: "./src/taskpane/taskpane.css"
         }
+      ]),
+      new CopyWebpackPlugin([
+        {
+          to: "extendedManifest.json",
+          from: "./extendedManifest.json"
+        }
       ])
     ],
     devServer: {

@@ -84,4 +84,7 @@
       </bt:LongStrings>
     </Resources>
   </VersionOverrides>
+  <ExtendedOverrides
+    Url="https://localhost:3000/dist/extendedManifest.json">
+  </ExtendedOverrides>
 </OfficeApp>

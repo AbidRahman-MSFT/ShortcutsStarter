@@ -13,6 +13,15 @@ Office.onReady(info => {
   }
 });
 
+Office.actions.associate('SHOWTASKPANE', function () {
+	return Office.addin.showAsTaskpane();
+});
+
+Office.actions.associate('HIDETASKPANE', function () {
+	return Office.addin.hide();
+});
+
+
 export async function run() {
   try {
     await Excel.run(async context => {
